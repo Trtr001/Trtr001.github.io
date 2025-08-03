@@ -12,15 +12,16 @@ permalink: /photos/
   <figure>
     <img src="/assets/images/photos1.jpg" alt="咱们的官宣照片（北京阿姨拍的不赖）">
     <figcaption>咱们的官宣照片（北京阿姨拍的不赖）</figcaption>
-  <figure>
+  </figure>
     
   <figure>
     <img src="/assets/images/photos2.jpg" alt="咱们的官宣照片（北京阿姨拍的不赖）">
-    <figcaption>咱们的官宣照片（北京阿姨拍的不赖）</figcaption>
-  <figure>
+    <figcaption>某个晚上和宝贝回宿舍，随手拍下的照片</figcaption>
+  </figure>
     
   <figure>
     <img src="/assets/images/photos3.jpg" alt="咱们的官宣照片（北京阿姨拍的不赖）">
-    <figcaption>咱们的官宣照片（北京阿姨拍的不赖）</figcaption>
-  <figure>
+    <figcaption>玄武湖上荡来荡去，我还不忘记亲宝贝</figcaption>
+  </figure>
+
 </div>
