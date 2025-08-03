@@ -4,9 +4,7 @@ title: 我们俩的照片
 permalink: /photos/
 ---
 
-# 📸 我们的合照哟
-
-宝贝你咋这么漂亮
+# 📸 我们的合照哟（宝贝你咋这么漂亮）
 
 <div class="photo-grid">
   <figure>
