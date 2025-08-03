@@ -5,8 +5,9 @@ description: 爱你哟宝贝😚😚😚
 ---
 <nav>
   <a href="/">首页</a> |
-  <a href="/about">关于我</a> |
-  <a href="/blog">博客</a>
+  <a href="/photos">咱俩的照片</a> |
+  <a href="/story">咱俩的故事</a> |
+  <a href="/future">咱俩的畅想</a>
 </nav>
 
 ---
