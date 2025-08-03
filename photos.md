@@ -9,7 +9,11 @@ permalink: /photos/
 宝贝你咋这么漂亮
 
 <div class="photo-grid">
-  <img src="/assets/images/photos1.jpg" alt="咱们的官宣照片（北京阿姨拍的不赖）">
+  <figure>
+    <img src="/assets/images/photos1.jpg" alt="咱们的官宣照片（北京阿姨拍的不赖）">
+    <figcaption>咱们的官宣照片（北京阿姨拍的不赖）</figcaption>
+  <figure>
+    
   <img src="/assets/images/photos2.jpg" alt="照片2">
   <img src="/assets/images/photos3.jpg" alt="照片3">
 </div>
