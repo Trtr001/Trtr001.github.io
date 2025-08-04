@@ -8,6 +8,7 @@ description: 爱你哟宝贝😚😚😚
   <a href="/photos">咱俩的照片</a> |
   <a href="/story">咱俩的故事</a> |
   <a href="/future">咱俩的畅想</a>
+  **记得要新标签页打开喔！**
 </nav>
 
 <p>🔊 放点歌听听？🔊</p>
