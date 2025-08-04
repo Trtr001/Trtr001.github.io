@@ -47,4 +47,11 @@ permalink: /photos/
     <img src="/assets/images/photos9.jpg" alt="9">
     <figcaption>给宝贝买的拍立得，第一次用，果然只要宝贝够漂亮就可以无视拍照技术</figcaption>
   </figure>
+
+  <figure>
+    <img src="/assets/images/photos10.jpg" alt="10">
+    <img src="/assets/images/photos11.jpg" alt="11">
+    <img src="/assets/images/photos12.jpg" alt="12">
+    <figcaption>和宝贝拍的一堆给舍友和朋友们报备（显摆）的照片</figcaption>
+  </figure>
 </div>
