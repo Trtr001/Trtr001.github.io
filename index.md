@@ -10,6 +10,12 @@ description: 爱你哟宝贝😚😚😚
   <a href="/future">咱俩的畅想</a>
 </nav>
 
+<audio autoplay loop hidden>
+  <source src="/assets/music/bgm.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
 ---
 # 👋 欢迎来到我们的网站！
 
