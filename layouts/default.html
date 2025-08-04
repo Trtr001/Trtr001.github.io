@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   </head>
   <body>
-    <!-- ✅ 背景音乐播放器 -->
-    <audio autoplay loop hidden id="bgm1">
+    <!-- 背景音乐 -->
+    <audio autoplay loop id="bgm1" style="display: none;">
       <source src="/assets/music/bgm1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
     </audio>
 
-    <!-- ✅ 页面内容 -->
     <main>
       {{ content }}
     </main>
 
-    <!-- ✅ 自动恢复播放进度 -->
+    <!-- JS 恢复播放进度 -->
     <script>
       const audio = document.getElementById('bgm1');
+
+      // 尝试恢复播放进度
       window.addEventListener('load', () => {
         const currentTime = sessionStorage.getItem('audioTime');
-        if (currentTime) audio.currentTime = currentTime;
-        audio.play();
+        if (currentTime) {
+          audio.currentTime = parseFloat(currentTime);
+        }
+        audio.play().catch(err => {
+          console.log("Autoplay failed:", err);
+        });
       });
+
+      // 页面刷新前保存当前时间
       window.addEventListener('beforeunload', () => {
         sessionStorage.setItem('audioTime', audio.currentTime);
       });
     </script>
   </body>
 </html>
+
