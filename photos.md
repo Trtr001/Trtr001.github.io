@@ -37,5 +37,14 @@ permalink: /photos/
     <img src="/assets/images/photos7.jpg" alt="7">
     <figcaption>和宝贝拍的毕业照（我也沾光穿上了），yj拍的真不赖</figcaption>
   </figure>
-  
+
+  <figure>
+    <img src="/assets/images/photos8.jpg" alt="8">
+    <figcaption>刚考完期末考，忧心忡忡的宝贝要去医院，结果走到一半亲戚来了......</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/images/photos9.jpg" alt="9">
+    <figcaption>给宝贝买的拍立得，第一次用，果然只要宝贝够漂亮就可以无视拍照技术</figcaption>
+  </figure>
 </div>
