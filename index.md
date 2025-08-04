@@ -10,11 +10,11 @@ description: 爱你哟宝贝😚😚😚
   <a href="/future">咱俩的畅想</a>
 </nav>
 
-<p>🔊 放点歌听听？🔊：</p>
-<button onclick="document.getElementById('bgm').play()">播放音乐</button>
+<p>🔊 放点歌听听？🔊</p>
+<button onclick="document.getElementById('bgm').play()">点我播放各种应景的小情歌</button>
 
 <audio id="bgm" loop>
-  <source src="/assets/music/bgm.mp3" type="audio/mpeg">
+  <source src="/assets/music/bgm1.mp3" type="audio/mpeg">
 </audio>
 
 ---
