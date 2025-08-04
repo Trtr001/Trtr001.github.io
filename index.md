@@ -10,11 +10,12 @@ description: 爱你哟宝贝😚😚😚
   <a href="/future">咱俩的畅想</a>
 </nav>
 
-<audio autoplay loop hidden>
-  <source src="/assets/music/bgm.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<p>🔊 放点歌听听？🔊：</p>
+<button onclick="document.getElementById('bgm').play()">播放音乐</button>
 
+<audio id="bgm" loop>
+  <source src="/assets/music/bgm.mp3" type="audio/mpeg">
+</audio>
 
 ---
 # 👋 欢迎来到我们的网站！
