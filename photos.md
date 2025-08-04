@@ -6,6 +6,13 @@ permalink: /photos/
 
 # 📸 我们的合照哟（宝贝你咋这么漂亮）
 
+<nav>
+  <a href="/">首页</a> |
+  <a href="/photos">咱俩的照片</a> |
+  <a href="/story">咱俩的故事</a> |
+  <a href="/future">咱俩的畅想</a>
+</nav>
+
 <div class="photo-grid">
   <figure>
     <img src="/assets/images/photos1.jpg" alt="1">
