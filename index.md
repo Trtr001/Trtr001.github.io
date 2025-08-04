@@ -11,9 +11,9 @@ description: 爱你哟宝贝😚😚😚
 </nav>
 
 <p>🔊 放点歌听听？🔊</p>
-<button onclick="document.getElementById('bgm').play()">点我播放各种应景的小情歌</button>
+<button onclick="document.getElementById('bgm1').play()">点我播放各种应景的小情歌</button>
 
-<audio id="bgm" loop>
+<audio id="bgm1" loop>
   <source src="/assets/music/bgm1.mp3" type="audio/mpeg">
 </audio>
 
