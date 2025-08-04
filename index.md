@@ -41,6 +41,11 @@ description: 爱你哟宝贝😚😚😚
     player.play();
   }
 
+  function nextSong() {
+    currentTrack = (currentTrack + 1) % playlist.length;
+    playMusic();
+  }
+  
   player.addEventListener('ended', () => {
     currentTrack = (currentTrack + 1) % playlist.length;
     playMusic();
