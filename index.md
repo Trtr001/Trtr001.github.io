@@ -19,6 +19,7 @@ description: 爱你哟宝贝😚😚😚
 <p id="now-playing" style="font-weight: bold; margin-top: 10px;"></p>
 
 <audio id="bgm" autoplay controls></audio>
+<button onclick="nextSong()">换一首</button>
 
 <script>
   const playlist = [
@@ -45,11 +46,8 @@ description: 爱你哟宝贝😚😚😚
     currentTrack = (currentTrack + 1) % playlist.length;
     playMusic();
   }
-  
-  player.addEventListener('ended', () => {
-    currentTrack = (currentTrack + 1) % playlist.length;
-    playMusic();
-  });
+
+  player.addEventListener('ended', nextSong);
 </script>
 
 # 👋 欢迎来到我们的网站！
