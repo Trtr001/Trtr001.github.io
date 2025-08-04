@@ -13,6 +13,10 @@ description: 爱你哟宝贝😚😚😚
 
 <p><em>记得要新标签页打开喔！</em></p>
 
+# 👋 欢迎来到我们的网站！
+
+**好喜欢好喜欢好喜欢宝贝！**
+
 <p>🔊 放点歌听听？🔊</p>
 <button onclick="playMusic()">点我播放各种应景的小情歌</button>
 
@@ -50,7 +54,4 @@ description: 爱你哟宝贝😚😚😚
   player.addEventListener('ended', nextSong);
 </script>
 
-# 👋 欢迎来到我们的网站！
-
-**好喜欢好喜欢好喜欢宝贝！**
 
