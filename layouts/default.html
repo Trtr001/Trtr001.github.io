@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  </head>
+  <body>
+    <!-- ✅ 背景音乐播放器 -->
+    <audio autoplay loop hidden id="bgm1">
+      <source src="/assets/music/bgm1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ✅ 页面内容 -->
+    <main>
+      {{ content }}
+    </main>
+
+    <!-- ✅ 自动恢复播放进度 -->
+    <script>
+      const audio = document.getElementById('bgm1');
+      window.addEventListener('load', () => {
+        const currentTime = sessionStorage.getItem('audioTime');
+        if (currentTime) audio.currentTime = currentTime;
+        audio.play();
+      });
+      window.addEventListener('beforeunload', () => {
+        sessionStorage.setItem('audioTime', audio.currentTime);
+      });
+    </script>
+  </body>
+</html>
