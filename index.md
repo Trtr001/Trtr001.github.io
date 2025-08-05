@@ -4,18 +4,20 @@ title: 这里是易安和朱敬璞的点点滴滴
 description: 爱你哟宝贝😚😚😚
 ---
 <style>
-  .site-header {
-    background-image: url('/assets/images/photos4.jpg'); 
+  .page-header {
+    background-image: url('/assets/images/photos4.jpg'); /* 替换成你的图片路径 */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
   }
 
-  .site-header .wrapper {
-    padding: 40px 0; /* 可选：增加上下间距 */
+  .project-name,
+  .project-tagline {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6); /* 让文字在图上更清晰 */
   }
 </style>
+
 
 
 <nav>
