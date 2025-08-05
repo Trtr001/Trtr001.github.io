@@ -4,6 +4,10 @@ title: 这里是易安和朱敬璞的点点滴滴
 description: 爱你哟宝贝😚😚😚
 ---
 <style>
+  .wrapper {
+    max-width: 1200px; /* 默认是 720px，可以调大 */
+    width: 90%; /* 保持自适应 */
+  }
   .page-header {
     background-image: url('/assets/images/photos1.jpg'); /* 替换成你的图片路径 */
     background-size: cover;
