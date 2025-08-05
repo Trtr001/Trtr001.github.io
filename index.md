@@ -5,7 +5,7 @@ description: 爱你哟宝贝😚😚😚
 ---
 <style>
   .page-header {
-    background-image: url('/assets/images/photos4.jpg'); /* 替换成你的图片路径 */
+    background-image: url('/assets/images/photos1.jpg'); /* 替换成你的图片路径 */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
