@@ -1,3 +1,8 @@
+---
+layout: default
+title: 关于我爱你的许多个理由
+description:永远保持更新状态
+---
 <style>
 .love-item {
   margin: 1.5em 0;
