@@ -35,7 +35,8 @@ description: 爱你哟宝贝😚😚😚
   <a href="/">首页</a> |
   <a href="/photos">咱俩的照片</a> |
   <a href="/story">咱俩的故事</a> |
-  <a href="/future">咱俩的畅想</a>
+  <a href="/future">咱俩的畅想</a> |
+  <a href="/love">我爱你什么</a> |
 </nav>
 
 <p><em>记得要新标签页打开喔！</em></p>
