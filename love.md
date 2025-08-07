@@ -6,6 +6,17 @@ permalink: /love/
 ---
 
 <style>
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .love-note {
   width: 100%;
   border: none;
@@ -16,15 +27,25 @@ permalink: /love/
   font-size: 1.4em;
   line-height: 1.8;
   font-family: "Segoe UI", "Comic Sans MS", cursive;
-  
+
   /* 渐变文字 */
-  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  background: linear-gradient(to right, #ff69b4, #dda0dd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
-  /* 防止溢出 */
-  overflow: visible;
+
+  /* 动画效果 */
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
 }
+
+/* 设置每行的延迟出现时间 */
+.love-note:nth-of-type(1) { animation-delay: 0.2s; }
+.love-note:nth-of-type(2) { animation-delay: 0.6s; }
+.love-note:nth-of-type(3) { animation-delay: 1.0s; }
+.love-note:nth-of-type(4) { animation-delay: 1.4s; }
+.love-note:nth-of-type(5) { animation-delay: 1.8s; }
+.love-note:nth-of-type(6) { animation-delay: 2.2s; }
+.love-note:nth-of-type(7) { animation-delay: 2.6s; }
 </style>
 
 <textarea class="love-note" readonly>我爱宝贝的眼睛，哭或笑的时候总是闪着惹人怜爱的光芒</textarea>
