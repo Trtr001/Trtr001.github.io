@@ -16,15 +16,16 @@ description: 永远保持更新状态
   width: 100%;
   max-width: 600px;
   margin-top: 0.5em;
-  padding: 0.6em;
+  padding: 0.6em 0; /* 上下有 padding，左右去掉 */
   font-size: 1em;
-  border: 2px solid #ff8cb3;
-  border-radius: 8px;
-  background-color: #fff0f5;
+  border: none; /* 无边框 */
+  border-bottom: 2px solid #ff8cb3; /* 只保留底部边框，可选 */
+  background-color: transparent; /* 背景透明 */
   color: #333;
-  box-shadow: 2px 2px 6px rgba(255, 150, 200, 0.2);
+  outline: none; /* 去除点击时的蓝边 */
 }
 </style>
+
 
 <div class="love-item">
   <input class="love-input" type="text" value="我爱宝贝的眼睛，哭或笑的时候总是闪着惹人怜爱的光芒" readonly>
