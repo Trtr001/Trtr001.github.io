@@ -18,7 +18,7 @@ permalink: /love/
   font-family: "Segoe UI", "Comic Sans MS", cursive;
   
   /* 渐变文字 */
-  background: linear-gradient(to right, #ff69b4, #dda0dd);
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
