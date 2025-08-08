@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <br>这里是易安和朱敬璞的点点滴滴
+title: 这里是易安和朱敬璞的点点滴滴
 description: 爱你哟宝贝😚😚😚
 ---
 <style>
