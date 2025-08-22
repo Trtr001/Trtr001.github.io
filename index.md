@@ -22,7 +22,7 @@ description: 爱你哟宝贝😚😚😚
   .page-header {
     background-image: url('/assets/images/photos13.jpg'); /* 替换成你的图片路径 */
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
     color: white;
   }
