@@ -1,3 +1,9 @@
+---
+layout: default
+title: 我们俩的照片
+permalink: /photos/
+---
+
 <script>
   const container = document.getElementById("storyContainer");
   const links = document.querySelectorAll(".story-link");
