@@ -1,66 +1,3 @@
----
-layout: default
-title: 咱俩的故事
-permalink: /stories/
----
-
-<nav>
-  <a href="/">首页</a> |
-  <a href="/photos">咱俩的照片</a> |
-  <a href="/stories">咱俩的故事</a> |
-  <a href="/future">咱俩的畅想</a> |
-  <a href="/love">我爱你什么</a> |
-</nav>
-
-<style>
-  body {
-    margin: 0;
-    overflow: hidden;
-  }
-  .story-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .story-link {
-    position: absolute;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    white-space: pre-line;
-    transition: transform 0.3s ease;
-  }
-  .story-link:hover {
-    transform: scale(1.2);
-  }
-</style>
-
-<div class="story-container" id="storyContainer">
-  <a href="/story1" class="story-link">
-    不知道该怎么说<br>
-    感谢的话这么多<br>
-    你就像是救了我<br>
-    在广阔寂寞漩涡解脱<br>
-    ——《麦恩莉》 方大同
-  </a>
-  <a href="/story2" class="story-link">
-    春天是她最爱的季节<br>
-    当微风随意吹乱她的头发<br>
-    ——《二十二》陶喆
-  </a>
-  <a href="/story3" class="story-link">
-    原谅我最近在低潮期<br>
-    有些话我讲的不好听<br>
-    ——《低潮期》丁世光
-  </a>
-  <a href="/story4" class="story-link">
-    故乡哟故乡<br>
-    爱人哟爱人<br>
-    ——《道别是一件难事》上海彩虹室内合唱团
-  </a>
-</div>
-
 <script>
   const container = document.getElementById("storyContainer");
   const links = document.querySelectorAll(".story-link");
@@ -83,8 +20,25 @@ permalink: /stories/
     link.style.color = colors[Math.floor(Math.random() * colors.length)];
 
     // 随机速度和方向
-    link.dataset.vx = (Math.random() * 1 + 0.3) * (Math.random() < 0.5 ? 1 : -1);
-    link.dataset.vy = (Math.random() * 1 + 0.3) * (Math.random() < 0.5 ? 1 : -1);
+    const vx = (Math.random() * 1 + 0.3) * (Math.random() < 0.5 ? 1 : -1);
+    const vy = (Math.random() * 1 + 0.3) * (Math.random() < 0.5 ? 1 : -1);
+
+    link.dataset.vx = vx;
+    link.dataset.vy = vy;
+    link.dataset.originalVx = vx;
+    link.dataset.originalVy = vy;
+
+    // 悬停时暂停
+    link.addEventListener("mouseover", () => {
+      link.dataset.vx = 0;
+      link.dataset.vy = 0;
+    });
+
+    // 移开时恢复
+    link.addEventListener("mouseout", () => {
+      link.dataset.vx = link.dataset.originalVx;
+      link.dataset.vy = link.dataset.originalVy;
+    });
   });
 
   function animate() {
@@ -101,8 +55,14 @@ permalink: /stories/
       y += vy;
 
       // 边界检测，反弹
-      if (x <= 0 || x + linkRect.width >= rect.width) vx *= -1;
-      if (y <= 0 || y + linkRect.height >= rect.height) vy *= -1;
+      if (x <= 0 || x + linkRect.width >= rect.width) {
+        vx *= -1;
+        link.dataset.originalVx *= -1; // 更新原始方向
+      }
+      if (y <= 0 || y + linkRect.height >= rect.height) {
+        vy *= -1;
+        link.dataset.originalVy *= -1; // 更新原始方向
+      }
 
       link.style.left = Math.max(0, Math.min(rect.width - linkRect.width, x)) + "px";
       link.style.top = Math.max(0, Math.min(rect.height - linkRect.height, y)) + "px";
@@ -115,6 +75,7 @@ permalink: /stories/
 
   animate();
 </script>
+
 
 
 
