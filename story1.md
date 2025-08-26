@@ -8,6 +8,7 @@ body {
   font-family: "KaiTi", "STKaiti", serif; /* 楷体 */
   line-height: 1.8; /* 行间距适中 */
   text-indent: 2em; /* 段首空两格 */
+  color: black;
   margin: 40px;
 }
 
