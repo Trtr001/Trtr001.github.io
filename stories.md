@@ -17,23 +17,31 @@ permalink: /stories/
   .story-container {
     width: 80%;
     margin: 40px auto;
-    font-family: "KaiTi", "楷体", serif; /* 楷体字体 */
+    font-family: "KaiTi", "楷体", serif; /* 楷体 */
+    text-align: center; /* 居中 */
   }
 
-  /* 每段歌词作为一个链接块 */
+  /* 每段歌词 */
   .story-link {
     display: block;
     font-size: 18px;
     color: black;
     text-decoration: none;
     margin: 20px 0;
-    white-space: pre-line; /* 保留歌词换行 */
-    line-height: 1.6;
+    line-height: 1.8;
     transition: color 0.2s;
   }
 
   .story-link:hover {
-    color: #555; /* 鼠标悬停时变灰 */
+    color: #555; /* 鼠标悬停变灰 */
+  }
+
+  /* 分割线 */
+  .divider {
+    width: 60%;
+    margin: 25px auto;
+    border: none;
+    border-top: 2px dashed #aaa; /* 虚线分割 */
   }
 </style>
 
@@ -48,12 +56,14 @@ permalink: /stories/
     使我 对爱再没那么多疑惑<br>
     ——《麦恩莉》 方大同
   </a>
+  <hr class="divider">
 
   <a href="/story2" class="story-link">
     春天是她最爱的季节<br>
     当微风随意吹乱她的头发<br>
     ——《二十二》陶喆
   </a>
+  <hr class="divider">
 
   <a href="/story3" class="story-link">
     原谅我最近在低潮期<br>
@@ -62,6 +72,7 @@ permalink: /stories/
     下意识对你像对我自己<br>
     ——《低潮期》丁世光
   </a>
+  <hr class="divider">
 
   <a href="/story4" class="story-link">
     故乡哟故乡<br>
@@ -71,6 +82,7 @@ permalink: /stories/
     ——《道别是一件难事》上海彩虹室内合唱团
   </a>
 </div>
+
 
 
 
