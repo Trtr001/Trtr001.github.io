@@ -13,40 +13,32 @@ permalink: /stories/
 </nav>
 
 <style>
-  /* 整个容器 */
+  /* 整体容器 */
   .story-container {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
+    width: 80%;
+    margin: 40px auto;
+    font-family: "KaiTi", "楷体", serif; /* 楷体字体 */
   }
 
-  /* 每个歌词链接的样式 */
+  /* 每段歌词作为一个链接块 */
   .story-link {
-    position: absolute;
+    display: block;
     font-size: 18px;
-    color: #ff6699;
+    color: black;
     text-decoration: none;
-    font-weight: bold;
-    white-space: pre-line; /* 保留歌词的换行 */
-    transition: transform 0.3s ease, color 0.3s ease;
+    margin: 20px 0;
+    white-space: pre-line; /* 保留歌词换行 */
+    line-height: 1.6;
+    transition: color 0.2s;
   }
 
   .story-link:hover {
-    transform: scale(1.2);
-    color: #ff3366;
-  }
-
-  /* 加个缓慢浮动的动画效果 */
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0px); }
+    color: #555; /* 鼠标悬停时变灰 */
   }
 </style>
 
 <div class="story-container">
-  <a href="/story1" class="story-link" style="top:10%; left:20%; animation: float 6s ease-in-out infinite;">
+  <a href="/story1" class="story-link">
     不知道该怎么说<br>
     感谢的话这么多<br>
     你就像是救了我<br>
@@ -57,13 +49,13 @@ permalink: /stories/
     ——《麦恩莉》 方大同
   </a>
 
-  <a href="/story2" class="story-link" style="top:40%; left:60%; animation: float 8s ease-in-out infinite;">
+  <a href="/story2" class="story-link">
     春天是她最爱的季节<br>
     当微风随意吹乱她的头发<br>
     ——《二十二》陶喆
   </a>
 
-  <a href="/story3" class="story-link" style="top:70%; left:30%; animation: float 10s ease-in-out infinite;">
+  <a href="/story3" class="story-link">
     原谅我最近在低潮期<br>
     有些话我讲的不好听<br>
     可能因为实在太熟悉<br>
@@ -71,7 +63,7 @@ permalink: /stories/
     ——《低潮期》丁世光
   </a>
 
-  <a href="/story4" class="story-link" style="top:50%; left:80%; animation: float 7s ease-in-out infinite;">
+  <a href="/story4" class="story-link">
     故乡哟故乡<br>
     爱人哟爱人<br>
     既然都忘不掉<br>
@@ -79,6 +71,7 @@ permalink: /stories/
     ——《道别是一件难事》上海彩虹室内合唱团
   </a>
 </div>
+
 
 
 
