@@ -13,13 +13,20 @@ permalink: /stories/
 </nav>
 
 <style>
+  body {
+    margin: 0;
+    overflow: hidden; /* 防止超出滚动条 */
+  }
+
+  /* 容器全屏 */
   .story-container {
     position: relative;
-    width: 100%;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
   }
 
+  /* 链接样式 */
   .story-link {
     position: absolute;
     font-size: 18px;
@@ -27,42 +34,24 @@ permalink: /stories/
     text-decoration: none;
     white-space: pre-line;
     transition: transform 0.3s ease, color 0.3s ease;
+    animation: floatXY linear infinite;
   }
 
   .story-link:hover {
     transform: scale(1.2);
   }
 
-  /* 定义多种颜色 */
-  .color1 { color: #ff6699; }
-  .color2 { color: #3399ff; }
-  .color3 { color: #9933ff; }
-  .color4 { color: #ff9933; }
-  .color5 { color: #33cc99; }
-
-  /* 漂浮动画 - 上下 */
-  @keyframes floatY {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-30px); }
-    100% { transform: translateY(0); }
-  }
-
-  /* 漂浮动画 - 左右 */
-  @keyframes floatX {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(30px); }
-    100% { transform: translateX(0); }
-  }
-
-  /* 漂浮动画 - 斜向 */
+  /* 定义XY方向漂浮 */
   @keyframes floatXY {
-    0% { transform: translate(0, 0); }
-    50% { transform: translate(20px, -20px); }
-    100% { transform: translate(0, 0); }
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(30px, -20px); }
+    50% { transform: translate(-20px, 30px); }
+    75% { transform: translate(20px, -30px); }
+    100% { transform: translate(0px, 0px); }
   }
 </style>
 
-<div class="story-container">
+<div class="story-container" id="storyContainer">
   <a href="/story1" class="story-link">
     不知道该怎么说<br>
     感谢的话这么多<br>
@@ -98,22 +87,23 @@ permalink: /stories/
 </div>
 
 <script>
-  document.querySelectorAll('.story-link').forEach(link => {
-    // 随机位置 (10%-80%)
-    let top = Math.random() * 70 + 10;
-    let left = Math.random() * 70 + 10;
-    link.style.top = top + '%';
-    link.style.left = left + '%';
+  const links = document.querySelectorAll('.story-link');
+  const colors = ['#ff6699', '#ffcc66', '#66ccff', '#99ff66', '#cc99ff'];
+
+  links.forEach(link => {
+    // 随机位置
+    const top = Math.random() * 80 + 10;   // 避免贴边
+    const left = Math.random() * 80 + 10;
+    link.style.top = top + 'vh';
+    link.style.left = left + 'vw';
 
     // 随机颜色
-    let colors = ['color1', 'color2', 'color3', 'color4', 'color5'];
-    link.classList.add(colors[Math.floor(Math.random() * colors.length)]);
+    link.style.color = colors[Math.floor(Math.random() * colors.length)];
 
-    // 随机漂浮方向
-    let animations = ['floatY', 'floatX', 'floatXY'];
-    let anim = animations[Math.floor(Math.random() * animations.length)];
-    let duration = Math.random() * 5 + 6; // 6-11秒
-    link.style.animation = `${anim} ${duration}s ease-in-out infinite`;
+    // 随机动画时长
+    const duration = Math.random() * 10 + 5; // 5-15秒
+    link.style.animationDuration = duration + 's';
   });
 </script>
+
 
