@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 咱俩的故事
+permalink: /stories/
 ---
 
 <style>
