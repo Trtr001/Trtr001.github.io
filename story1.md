@@ -9,10 +9,10 @@ body {
 /* 左上角歌词 */
 .lyrics {
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 100px;
+  left: 200px;
   font-size: 14px;
-  color: gray;
+  color: black;
   font-family: "KaiTi", "STKaiti", serif;
   line-height: 1.4;
 }
