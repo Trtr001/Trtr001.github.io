@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <title>Story 1</title>
   <style>
+/* 让 Cayman 页眉里的大标题变斜体 */
+.page-header .project-name {
+  font-style: italic !important;
+  /* 如果想保持大小写，不要全大写，可顺便关掉这行：*/
+  /* text-transform: none !important; */
+}
+</style>
+  <style>
     body {
       font-family: KaiTi, "楷体", serif; /* 正文字体楷体 */
       font-size: 18px;
