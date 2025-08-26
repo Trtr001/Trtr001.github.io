@@ -5,6 +5,13 @@ description: 想到新的我还会补上的喔~
 permalink: /love/
 ---
 
+<nav>
+  <a href="/">首页</a> |
+  <a href="/photos">咱俩的照片</a> |
+  <a href="/story">咱俩的故事</a> |
+  <a href="/future">咱俩的畅想</a>
+</nav>
+
 <style>
 .love-note {
   width: 100%;
