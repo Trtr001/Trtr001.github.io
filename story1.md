@@ -4,14 +4,6 @@
   <meta charset="UTF-8">
   <title>Story 1</title>
   <style>
-/* 让 Cayman 页眉里的大标题变斜体 */
-.page-header .project-name {
-  font-style: italic !important;
-  /* 如果想保持大小写，不要全大写，可顺便关掉这行：*/
-  /* text-transform: none !important; */
-}
-</style>
-  <style>
     body {
       font-family: KaiTi, "楷体", serif; /* 正文字体楷体 */
       font-size: 18px;
@@ -24,6 +16,11 @@
       font-style: italic; /* 标题斜体 */
       text-align: center;
       margin-bottom: 40px;
+    }
+    .fancy-title {
+      font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+      font-size: 48px; /* 让标题更大更美观 */
+      font-weight: normal; /* 避免粗体影响花体效果 */
     }
     .lyrics {
       position: absolute;
@@ -40,7 +37,7 @@
   </style>
 </head>
 <body>
-  <h1>story one</h1>
+  <h1 class="fancy-title">story one</h1>
 
   <p>我曾和你说过：你是大学前两年，甚至可能会是整个本科阶段，对我影响最深的人。那个时候，我们还没在一起呢。</p>
   <p>那个时候，你是我的好学姐、好师姐、好组长。我心里早就对你充满了仰慕和钦佩，远在我对你产生情愫之前。你教我好多东西，把我拉到正轨上：怎么做项目，怎么搞科研，怎么改代码，怎么读论文……各种事情让我得到了从无到有的突破。</p>
@@ -54,3 +51,4 @@
   <p>宝贝，谢谢你，不只是让我看到了我光明的未来，也带给了我无尽的爱意。我会不遗余力在以后的每一天，去更爱你，让你更开心，努力让我们都能到达，那个我们所设想的美好未来。爱你哟~</p>
 </body>
 </html>
+
