@@ -1,3 +1,8 @@
+---
+layout: default
+title: Story One
+---
+
 <style>
 body {
   font-family: "KaiTi", "STKaiti", serif; /* 楷体 */
