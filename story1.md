@@ -74,7 +74,4 @@ permalink: /story1/
 </div>
 
 
-</body>
-</html>
-
 
