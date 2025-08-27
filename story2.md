@@ -128,4 +128,5 @@ permalink: /story2/
 </p>
 <p>
 “爱你！”
+</p>
 </div>
