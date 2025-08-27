@@ -12,42 +12,54 @@ permalink: /story1/
   <a href="/love">我爱你什么</a> |
 </nav>
 
+<!-- 新增标题 -->
+<h1 class="fancy-title">Story One</h1>
+
 <div id="story-page">
 
 <style>
+/* 标题样式 */
+.fancy-title {
+  text-align: center;
+  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
+  font-size: 3rem;               /* 标题大小 */
+  margin: 1.2rem 0 2rem 0;       /* 上下间距 */
+  color: #6a5acd;                /* 柔和的紫色，可改 */
+  text-shadow: 0 0 8px rgba(106, 90, 205, 0.6),
+               0 0 15px rgba(106, 90, 205, 0.4),
+               0 0 25px rgba(106, 90, 205, 0.3); /* 柔和发光 */
+  font-weight: normal;
+}
+
 /* 页面局部样式：楷体、行距、段首缩进 */
 #story-page {
   font-family: "KaiTi", "楷体", "STKaiti", "Kaiti SC", "Noto Serif SC", serif;
-  font-size: 18px;       /* 可按需改小或放大 */
-  line-height: 1.8;      /* 行间距：不要太小 */
-  max-width: 860px;      /* 阅读宽度限制，适配窄屏可删除 */
-  margin: 0 auto;        /* 居中显示 */
-  padding: 1.25rem 1rem; /* 页面内边距 */
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem;
   color: #222;
   word-break: break-word;
 }
 
-/* 段落首行缩进两个中文字符（约 2em）*/
 #story-page p {
   text-indent: 2em;
   margin: 0 0 1.05rem 0;
 }
 
-/* 如果你在页面里使用标题，保持继承字体 */
 #story-page h1, #story-page h2, #story-page h3 {
   font-family: inherit;
   line-height: 1.3;
   margin-top: 1.1rem;
 }
 
-/* 可选：针对移动端微调 */
 @media (max-width: 600px) {
+  .fancy-title { font-size: 2.3rem; }
   #story-page { font-size: 16px; line-height: 1.9; padding: 1rem; }
-  #story-page { text-indent: 2em; } /* 仍保留段首缩进 */
 }
 </style>
 
-<!-- 正文：每段之间保持一个空行 -->
 <p>
 我曾和你说过：你是大学前两年，甚至可能会是整个本科阶段，对我影响最深的人。那个时候，我们还没在一起呢。
 </p>
@@ -65,6 +77,8 @@ permalink: /story1/
 </p>
 <p>
 当然，这些问题现在已经全部解决了，但在当时真是像萦绕在我心头的乌云一样令我烦恼，每一朵我都希望它能快点飘走，每一朵又都阴郁得像要将我覆没。
+</p>
+<p>
 我曾好几次想过将我所有的心思埋藏到底，也好几次将那些心思又拾起，但依旧是十分怯懦不敢表达出自己的心。直到2025年3月6日的凌晨，一切的一切都豁然开朗起来，宝贝比我更先迈出了那勇敢的一步，而就在那一晚之后我也对原先的很多问题有了答案。如果一切没有开始那我可以接受很多可能性，但我们正式处于交往关系，那在我心里就只能有一个可能性的存在，就是我要放下一切顾虑，用心经营好我们的关系。
 </p>
 <p>
@@ -80,6 +94,7 @@ permalink: /story1/
 爱你哟~
 </p>
 </div>
+
 
 
 
