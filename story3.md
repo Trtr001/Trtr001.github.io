@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Story Two"
-permalink: /story2/
+title: "Story Three"
+permalink: /story3/
 ---
 
 <nav>
@@ -13,7 +13,7 @@ permalink: /story2/
 </nav>
 
 <!-- 新增标题 -->
-<h1 class="fancy-title">Story Two</h1>
+<h1 class="fancy-title">Story Three</h1>
 
 <div id="story-page">
 
