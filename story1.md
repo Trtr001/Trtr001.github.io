@@ -24,7 +24,7 @@ permalink: /story1/
   font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
   font-size: 3rem;               /* 标题大小 */
   margin: 1.2rem 0 2rem 0;       /* 上下间距 */
-  color: #6a5acd;                /* 柔和的紫色，可改 */
+  color: #1e90ff;                /* 柔和的紫色，可改 */
   text-shadow: 0 0 8px rgba(106, 90, 205, 0.6),
                0 0 15px rgba(106, 90, 205, 0.4),
                0 0 25px rgba(106, 90, 205, 0.3); /* 柔和发光 */
