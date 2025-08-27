@@ -1,57 +1,62 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Story 1</title>
-  <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Story One</title>
+<style>
     body {
-      font-family: KaiTi, "楷体", serif;
-      font-size: 18px;
-      line-height: 1.8;
-      color: black;
-      margin: 0; /* 移除默认外边距 */
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background: #fff;
     }
-    .page-header {
-      background: linear-gradient(90deg, #1e3c72, #2a5298, #38ef7d); /* 渐变背景 */
-      text-align: center;
-      padding: 80px 20px;
+
+    /* 顶部标题区域 */
+    header {
+        background: linear-gradient(90deg, #1a3c8b, #1abc9c);
+        color: white;
+        text-align: center;
+        padding: 80px 0;
     }
-    .page-header .fancy-title {
-      font-family: "Brush Script MT", "Lucida Handwriting", cursive;
-      font-size: 64px; /* 大标题更突出 */
-      font-weight: normal;
-      color: white; /* 白色字体对比背景 */
-      margin: 0;
+
+    /* 标题样式：花体+发光 */
+    header h1 {
+        font-family: "Brush Script MT", cursive, "KaiTi", serif; /* 花体字体 */
+        font-size: 60px;
+        font-style: italic;
+        text-shadow: 0 0 10px #fff, 0 0 20px #1abc9c, 0 0 40px #1abc9c; /* 发光效果 */
+        animation: glow 1.5s infinite alternate;
     }
-    .lyrics {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-size: 12px;
-      color: gray;
-      line-height: 1.5;
+
+    /* 发光动画 */
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #1abc9c, 0 0 40px #1abc9c;
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #16e0bd, 0 0 60px #16e0bd;
+        }
     }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+
+    /* 正文部分 */
+    .content {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.8;
+        color: #333;
+        text-align: justify;
     }
-    main h1 {
-      display: none; /* 隐藏原来的 h1（因为已经放到顶部） */
-    }
-    p {
-      text-indent: 2em;
-      margin-bottom: 15px;
-    }
-  </style>
+</style>
 </head>
 <body>
-  <!-- 顶部渐变标题 -->
-  <header class="page-header">
-    <h1 class="fancy-title">story one</h1>
-  </header>
 
-  <!-- 正文 -->
-  <main>
+<header>
+    <h1>story one</h1>
+</header>
+
+<div class="content">
     <p>我曾和你说过：你是大学前两年，甚至可能会是整个本科阶段，对我影响最深的人。那个时候，我们还没在一起呢。</p>
     <p>那个时候，你是我的好学姐、好师姐、好组长。我心里早就对你充满了仰慕和钦佩，远在我对你产生情愫之前。你教我好多东西，把我拉到正轨上：怎么做项目，怎么搞科研，怎么改代码，怎么读论文……各种事情让我得到了从无到有的突破。</p>
     <p>我想最初的情愫其实就从这些看起来很学术的日常里产生，从我的角度来说，一个异常优秀的师姐，性格开朗，成绩优异，还不遗余力地教我各种东西，将我从一片混沌中拉出，抹去了我眼前的迷雾——我感觉我的未来好像有方向了，我很想去你将要去的那所学校，那时我还没意识到我的想法到底出自什么感情，我们就这样有一搭没一搭聊着学习和学习。</p>
@@ -63,7 +68,8 @@
     <p>对我来说，宝贝从来都是非常重要的角色，区别就在于，现在我希望我能够和宝贝永远在彼此的人生中扮演一个重要的角色。原来那个宝贝为我开导的方向也变得清晰起来，我希望我接下来的道路里永远有宝贝的身影。宝贝一直对我很好，我也想不到什么报答的方式，能够比对宝贝也一直很好更合适了。</p>
     <p>宝贝，谢谢你，不只是让我看到了我光明的未来，也带给了我无尽的爱意。我会不遗余力在以后的每一天，去更爱你，让你更开心，努力让我们都能到达，那个我们所设想的美好未来。</p>
     <p>爱你哟~</p>
-  </main>
+</div>
+
 </body>
 </html>
 
