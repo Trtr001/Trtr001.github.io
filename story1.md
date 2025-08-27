@@ -4,6 +4,14 @@ title: "Story One"
 permalink: /story1/
 ---
 
+<nav>
+  <a href="/">首页</a> |
+  <a href="/photos">咱俩的照片</a> |
+  <a href="/stories">咱俩的故事</a> |
+  <a href="/future">咱俩的畅想</a> |
+  <a href="/love">我爱你什么</a> |
+</nav>
+
 <div id="story-page">
 
 <style>
