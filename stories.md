@@ -81,6 +81,44 @@ permalink: /stories/
     不如就装着吧<br>
     ——《道别是一件难事》上海彩虹室内合唱团
   </a>
+  <hr class="divider">
+
+  <a href="/story5" class="story-link">
+    并不是真的<br>
+    路过而已<br>
+    也不是真的<br>
+    不会想你<br>
+    全都不是真的<br>
+    是骗自己<br>
+    ——《流沙》陶喆<br>
+  </a>
+  <hr class="divider">
+
+  <a href="/story6" class="story-link">
+    你靠着我的肩膀<br>
+    你在我胸口睡着<br>
+    像这样的生活<br>
+    我爱你 你爱我<br>
+    ——《简单爱》周杰伦
+  </a>
+  <hr class="divider">
+
+  <a href="/story7" class="story-link">
+    在这喧嚣 繁华 迷人 又容易迷失的都市里<br>
+    在这快乐 悲伤 甜美 伴随着苦涩的日子里<br>
+    可能我脆弱 孤单 自卑 只想要深刻到骨子里<br>
+    多幸运啊 再烦恼的时刻我都还拥有你<br>
+    ——《女孩》艾热
+  </a>
+  <hr class="divider">
+
+  <a href="/story8" class="story-link">
+    几分忧郁 几分孤单<br>
+    都心甘情愿<br>
+    我的爱像落叶归根<br>
+    家唯独在你身边<br>
+    ——《落叶归根》王力宏
+  </a>
 </div>
 
 
