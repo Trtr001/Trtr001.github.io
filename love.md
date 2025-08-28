@@ -26,6 +26,8 @@ permalink: /love/
   text-align: left;
   text-indent: 2em;
   font-family: "Segoe UI", "Comic Sans MS", cursive;
+  max-height: 300px;   /* 根据页面设计调整 */
+  overflow-y: auto;
   
   /* 渐变文字 */
   background: linear-gradient(to right, #ff69b4, #dda0dd);
