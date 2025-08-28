@@ -23,12 +23,11 @@ permalink: /future/
   margin-bottom: 1.5em;
   font-size: 1.4em;
   line-height: 1.8;
-  text-align: left;
-  text-indent: 2em;
+  text-align: center; /* 居中 */
   font-family: "Segoe UI", "Comic Sans MS", cursive;
   
   /* 渐变文字 */
-  background: linear-gradient(to right, #ff69b4, #dda0dd);
+  background: linear-gradient(to right, #ff7eb3, #65c7f7, #0052d4); /* 新渐变色 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -94,3 +93,4 @@ function nextLoveNote() {
 // 初始化时显示一句
 nextLoveNote();
 </script>
+
