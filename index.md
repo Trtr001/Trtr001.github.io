@@ -62,7 +62,8 @@ description: 爱你哟宝贝😚😚😚
     { src: '/assets/music/bgm1.mp3', title: '红豆 - 方大同' },
     { src: '/assets/music/bgm2.mp3', title: '就是爱你 - 陶喆' },
     { src: '/assets/music/bgm3.mp3', title: '永恒的主题 - 丁世光' },
-    { src: '/assets/music/bgm4.mp3', title: '陪你 - 陶喆' }
+    { src: '/assets/music/bgm4.mp3', title: '陪你 - 陶喆' },
+    { src: '/assets/music/bgm5.mp3', title: '落叶归根 - 王力宏' }
   ];
 
   let currentTrack = 0;
