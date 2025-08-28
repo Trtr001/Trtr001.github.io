@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 点击歌词即可进入相应故事喔
+title: 点击歌词即可进入相应故事喔~
 permalink: /stories/
 ---
 
