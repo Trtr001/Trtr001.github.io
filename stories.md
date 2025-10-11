@@ -119,6 +119,14 @@ permalink: /stories/
     家唯独在你身边<br>
     ——《落叶归根》王力宏
   </a>
+  <hr class="divider">
+    
+  <a href="/story9" class="story-link">
+    穿过 云层 云朵 之中
+    你的 身影 错乱 时空
+    ——《经济舱》刘聪/咖啡壶
+  </a>
+
 </div>
 
 
