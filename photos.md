@@ -62,4 +62,9 @@ permalink: /photos/
     <img src="/assets/images/photos12.jpg" alt="12">
     <figcaption>和宝贝拍的一堆给舍友和朋友们报备（显摆）的照片</figcaption>
   </figure>
+  
+  <figure>
+    <img src="/assets/images/photos13.jpg" alt="10">
+    <figcaption>和宝贝在新街口地铁站对着天花板来了一张自拍（压根没想到效果拍起来还不错）</figcaption>
+  </figure>
 </div>
