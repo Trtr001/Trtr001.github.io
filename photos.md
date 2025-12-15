@@ -64,7 +64,14 @@ permalink: /photos/
   </figure>
   
   <figure>
-    <img src="/assets/images/photos13.jpg" alt="10">
+    <img src="/assets/images/photos13.jpg" alt="13">
     <figcaption>和宝贝在新街口地铁站对着天花板来了一张自拍（压根没想到效果拍起来还不错）</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/images/photos15.jpg" alt="14">
+    <img src="/assets/images/photos16.jpg" alt="15">
+    <img src="/assets/images/photos17.jpg" alt="16">
+    <figcaption>宝贝来南京找我啦，拍的美美的照片，还有好多好吃的（另开一栏），我和宝贝都很开心，但时间好短，我们以后一直在一起！！！</figcaption>
   </figure>
 </div>
